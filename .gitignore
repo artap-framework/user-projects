@@ -1,0 +1,8 @@
+# C extensions
+*.so
+
+# Pycharm
+.idea/
+
+# Mkdocs
+site/
