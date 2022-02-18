@@ -1,2 +1,3 @@
 # user-projects
-Repository of own problems from users with Artap
+
+This repository contains a collection of user-projects
