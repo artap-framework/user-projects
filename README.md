@@ -7,7 +7,6 @@ Optimization with Ārtap Framework**, which is published in
 the [Vol. 65 No. 2 (2021)](https://pp.bme.hu/eecs/issue/view/1115) of Periodica Polytechnica Electrical Engineering and
 Computer Science.
 
-!!! note::
 
     The proposed examples made by the users and it should be use the previous versions of Ārtap (before 2021) to run 
     and reproduce the published results.
