@@ -7,6 +7,7 @@ from artap.algorithm_nlopt import NLopt, LN_BOBYQA, GN_DIRECT_L_RAND
 from artap.algorithm_sweep import SweepAlgorithm
 from artap.surrogate_smt import SurrogateModelSMT
 
+
 class ArtapProblem(Problem):
     def set(self):
         self.parameters = [{'name': 'x_1', 'initial_value': 0.1, 'bounds': [0.0, 1.0]}]
@@ -16,7 +17,7 @@ class ArtapProblem(Problem):
         x = individual.vector
 
         # the goal function
-        F1 = (6*x[0] - 2) ** 2 * sin(12*x[0] - 4)
+        F1 = (6 * x[0] - 2) ** 2 * sin(12 * x[0] - 4)
 
         return [F1]
 
